@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body expands to full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Post styles */
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+/* Toggle mode button styles */
+.toggleMode {
+    cursor: pointer;
+    font-size: 28px;
+    padding: 12px 24px;
+    border: none;
+    background: none;
+    outline: none;
+    position: fixed;
+    left: 20px; 
+    top: 20px; 
+}
+
+.mode-toggle:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.mode-icon {
+    margin-right: 8px; /* Increased space between icon and text */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Back button styles */
+header a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
