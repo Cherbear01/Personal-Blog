@@ -3,6 +3,5 @@
 This is a website to make personal blog posts that is saved for viewing. It also toggles between light and dark mode.
 ## H2 Screenshot
 ![Screenshot](Screenshot1.png)
-![Screenshot](Screenshot2.png)
 ## H2 Link to Application
 [Personal-Blog](https://cherbear01.github.io/Personal-Blog/)
